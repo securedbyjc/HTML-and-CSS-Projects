@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(168, 124, 212);
+
+}
+p {
+    color: white;
+    background: rgb(2, 97, 26);
+    font-weight: bold;
+    text-align: left;
+}
