@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <html lang="en">
+    <head>
+        <title>Future Beach Bum</title>
+        <meta charset="utf-8"
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+            <style>
+                body {font-family: Arial, Helvetica, sans-serif;}
+                * {box-sizing: border-box;}
+
+                input[type=text], select, textarea {
+                    width: 100%;
+                    padding: 12px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    box-sizing: border-box;
+                    margin-top: 6px;
+                    margin-bottom: 16px;
+                    resize: vertical;
+}
+
+                input[type=submit] {
+                    background-color: #049faa;
+                    color: white;
+                    padding: 12px 20px;
+                    border: none;
+                    border-radius: 4px;
+                    cursor: pointer;
+}
+
+                input[type=submit]:hover {
+                    background-color: #45a049;
+}
+
+                .container {
+                    border-radius: 5px;
+                    background-color: #f2f2f2;
+                    padding: 20px;
+}
+    </style>
+</head>
+    <body>
+
+        <!--NAV-->
+        <div>
+            <div>
+                <ul>
+                   <a href="#home" id="link"><li>HOME</li></a>
+                   <a href="#gallery" id="link"><li>GALLERY</li></a>
+                   <a href="#video" id="link"><li>VIDEO</li></a>
+                   <a href="#contact" id="link"><li>CONTACT ME</li></a>
+                </ul>
+            </div>
+        </div>
+        <!--END NAV-->
+
+         <!--HOME -->
+         <div id="home">
+            <div>
+                <div>
+                    <h2>"If I Could Live Anywhere in the World"</h2>
+                    <p><span>I wish to live I like I am on vacation everyday.<br>
+                        So my research suggests that the Philippnes has the best beaches on the planet.<br> 
+                        One day I will visit with the intentions of finding a place to live everyday on a beach paradise.</span></p
+                </div>
+            </div>
+        </div>
+        <!--END HOME-->
+
+        <!--GALLERY-->
+        <section>
+            <div id="gallery">
+                <h1>Gallery</h1>
+                </div>
+                    <!-- PHOTO-Container 1-->
+                    <div>
+                        <div>
+                            <img src="./images/thumb01/thumbnail_1.jpg" alt="Sunset in El Nido, Palawan">
+                            <div>
+                                <h3>SUNSET</h3>
+                                <p>Evening walks along this beach will be a goal come true.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--END PHOTO-CONTAINER 1-->
+
+                    <!-- PHOTO-Container 2-->
+                    <div>
+                        <div>
+                            <img src="./images/thumb01/thumbnail_2.jpg" alt="Limestome Mountains in El Nido, Palawan">
+                            <div>
+                                <h3>LIMESTONE MONTAINS</h3>
+                                <p>The drone view of thes limestone mountains in El Nido will allow you to appreciate them from another perspective.  </p>
+                            </div> 
+                        </div>
+                    </div>
+                    <!--END PHOTO-CONTAINER 2-->
+
+                    <!-- PHOTO-Container 3-->
+                    <div>
+                        <div>
+                            <img src="./images/thumb01/thumbnail_4.jpg" alt="Crystal blue water in El Nido, Palawan">
+                            <div>
+                                <h3>I Call this picture, "Floating all your problems away!"</h3>
+                                <p>The drone view of thes limestone mountains in El Nido will allow you to appreciate them from another perspective.  </p>
+                            </div> 
+                        </div>
+                    </div>
+                    <!--END PHOTO-CONTAINER 3-->
+
+                    <!-- PHOTO-Container 4-->
+                    <div>
+                        <div>
+                            <img src="./images/thumb01/thumbnail_3.jpg" alt="Hammock in El Nido, Palawan">
+                            <div>
+                                <h3>Just visualizing myself there</h3>
+                                <p>The drone view of thes limestone mountains in El Nido will allow you to appreciate them from another perspective.  </p>
+                            </div> 
+                        </div>
+                    </div>
+                    <!--END PHOTO-CONTAINER 4-->
+            </div>
+        </section>
+        <!--END GALLERY-->
+
+        <!--VIDEO-->
+        <section>
+            <div id="video">
+                <h1>Video</h1>
+                </div>
+                    <!-- VIDEO CONTAINER-->
+                    <div>
+                        <div>
+                            <div>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/hxdrPdD8nnA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                           
+                            </div>
+                        </div>
+                    </div>
+                     <!--END VIDEO CONTAINER-->
+         </section>          
+        <!--END VIDEO-->
+      
+         <!--CONTACT ME-->
+        <section>
+            <div id="contact me">
+                <h1>Contact Me</h1>
+                <div class="container">
+                    <form action="/action_page.php">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    
+                        <label for="country">Country</label>
+                        <select id="country" name="country">
+                            <option value="australia">Australia</option>
+                            <option value="canada">Canada</option>
+                            <option value="usa">USA</option>
+                        </select>
+                    
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    
+                        <input type="submit" value="Submit">
+                    </form>
+               </div>
+            </div>
+        </section>
+        <!--END CONTACT ME-->
+
+        <!--FOOTER-->
+        <section>
+            <footer>
+                <p>Author: J. Collins<br>
+                <a href="mailto:Securedbyjc@gmail.com">securedbyjc@gmail.com</a></p>
+              </footer>
+        </section>
+        <!--END FOOTER-->
+</html>
