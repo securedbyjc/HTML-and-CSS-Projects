@@ -1,3 +1,7 @@
+/*=========================================
+    Author: Jeffrey L. Collins
+    https://github.com/securedbyjc
+==========================================*/
 html {
     font-family: sans-serif;
     font-size: 62.5%;
@@ -13,6 +17,7 @@ body {
     line-height: 1.42857143;
     color: #333;
     background-color: #fff;
+    
 }
 
 footer,
@@ -26,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1  {
     line-height: 50px;
-    font-weight: 900;
+    font-weight: 800;
     font-size: 30px;
     text-transform: uppercase;
     text-align: center;
@@ -130,7 +135,7 @@ section {
 .menu-container  {
     max-height: 340px;
     margin: 0% auto;
-    content: "  ";
+    content: " ";
     /* top: 0;
     left: 0; */
     /* postion: absolute; */ /* to the top edge of the screen */
@@ -144,28 +149,27 @@ section {
     HOME SECTION STYLES
 =================================================================*/
 #home  {
-    background: url(/HTML-and-CSS-Projects/Basic_Website_Project/) no-repeat 50% 50%;
+    background-image: url(../images/planets_1.jpg) no-repeat 50% 50%;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    -c-background-size: cover;
     background-size: cover;
     width: 100%;
     display: block;
     height: auto;
-    padding-top: 350px; /* This is a spacer before the Main title Logo */
+    padding-top: 750px; /* This is a spacer before the Main title Logo */
     padding-bottom: 500px; /* This a spacer after the Main title logo */
-    color: #fff;
+    color: #fff(219, 21, 216);
 }
 
 .head-main {
     text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.9);
     font-variant: small-caps;
-    color: #fff;
+    color: lightsteelblue;
     letter-spacing: 5pt;
     word-spacing: 21pt;
-    font-size: 4.5cm;
-    text-align: left;
+    font-size: 4.5em;
+    text-align: center;
     font-family: impact, sans-serif;
     line-height: 2;
     font-weight: 900;
@@ -183,7 +187,7 @@ section {
 .head-last {
     font-size: 18px;
     font-weight: 900;
-    padding: 5px 20px 20px 20px;
+    padding: 10px 20px 20px 20px;
     border: 1px dotted #fff;
     padding: 5px;
 }
@@ -191,6 +195,20 @@ section {
 /*======================================================
   CONTACT STYLES
   ======================================================*/
+/*--Reference source; Master the Skill of Debugging CSS, (Ahmad Shadeed). [See code lines;.receipe, img, .recipe img ] --*/
+
+.recipe { 
+    display: flex;
+} 
+
+img { 
+    width: 50%;
+}
+
+.recipe img { 
+    align-self: flex-start;
+}
+
 .flex-container {
     display: -webkit-flex;
     display: flex;
@@ -198,7 +216,7 @@ section {
     padding: 10px;
     border-radius: 8px;
     margin: 0px auto;
-    background-color: rgba(100, 65, 0, 3);
+    background-color: rgb(20, 20, 92);
     box-shadow: 2px, 2px, 10px, 0, rgba(0, 0, 0, .5);
 }
 
@@ -248,13 +266,13 @@ section {
     font-size: 15px;
     outline: none;
     font-weight: 600;
-    color: #8d8e8f;
+    color: cornflowerblue;
     padding: 12px 12px;
     width: 70%;
-    border: 1px solid #808080;
+    border: 1px solid black;
     margin: 2% auto;
     border-radius: 7px;
-    background: rgb(227, 222, 222);
+    background: cornflowerblue;
     box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, .3);
     font-family: 'Raleway', sans-serif;
 }
@@ -263,7 +281,7 @@ section {
     font-size: 15px;
     outline: none;
     font-weight: 600;
-    color: #8d8e8f;
+    color: blue;
     padding: 2% 1% 2% 7%;
     width: 80%;
     border-top: 1px solid #090b09;
@@ -299,12 +317,12 @@ section {
 }
 
 .terms:hover {
-    color: orange;
+    color: red;
     text-decoration: underline;
 }
 
 .submit input[type="submit"] {
-    color: rgb(225, 225, 225);
+    color:  cornflowerblue;
     cursor: pointer;
     border: none;
     font-weight: 900;
@@ -320,7 +338,7 @@ section {
     font-size: 18px;
     transition: border-color 0.3s color 0.3s background-color 0.3s;
     border-radius: 7px;
-    background-color: #797a7b;
+    background-color: lightsteelblue;
     box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .3);
 }
 
