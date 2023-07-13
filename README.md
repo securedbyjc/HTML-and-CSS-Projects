@@ -28,5 +28,5 @@
 <p>
     <h2>My Portfolio Website</h2>
     <br>
-    This webpage was designed in all HTML and CSS to showcase myself professionally. The intention is to give a potential decision maker of a firm to become interested and hopefully present opportunities to work on their project. 
+    This webpage was designed in all HTML and CSS with an attached database service to showcase me professionally. The intention is to give a potential decision maker of a firm to become interested and hopefully, present opportunities to work on their project. 
 </p>
