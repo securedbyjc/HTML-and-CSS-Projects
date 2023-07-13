@@ -1,6 +1,6 @@
 <h2> HTML and CSS Projects<h2><br>
 
-<h4>This repository is where I submit the HTML and CSS assignments and projects while in attandance at The Tech Academy.<br><h4> 
+<h4>This repository is where I submit the HTML and CSS assignments and projects while attending The Tech Academy.<br><h4> 
 
 <h2>Projects</h2>
 
@@ -15,18 +15,18 @@
 <br>
 <p><h2>Project Space Resort</b></h2>
     <br>
-    This webpage is an example for a future Space travel and resort service. Styled with CSS and installed within is a navbar,<br>image containers, and form.</h4> 
+    This webpage is an example of a future Space travel and resort service. Styled with CSS and installed within is a navbar, image containers, and form.</h4> 
 </p>
 <br>
 <br>
 <p><h2>Project Movie Theater</h2>
     <br>
-    This webpage is a homepage sample for a Movie Theater styled using Boostrap 4. Installed are several Boostrap components, to include a navbar, jumbotron, form, cards and dropdowns. Just to name a few.
+    This webpage is a homepage sample for a Movie Theater styled using Boostrap 4. Installed are several Boostrap components, including a navbar, jumbotron, form, cards, and dropdowns. Just to name a few.
 </p>
 <br>
 <br>
 <p>
     <h2>My Portfolio Website</h2>
     <br>
-    This webpage was designed in all HTML and CSS to showcase myself professionally. The intention is to give a potenial decision maker of a firm to become interested and hopefully present opportunities to work on their project. 
+    This webpage was designed in all HTML and CSS to showcase myself professionally. The intention is to give a potential decision maker of a firm to become interested and hopefully present opportunities to work on their project. 
 </p>
